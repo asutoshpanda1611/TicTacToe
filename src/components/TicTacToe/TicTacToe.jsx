@@ -62,6 +62,7 @@ const TicTacToe = () => {
 
   const reset = () => {
     setLock(false);
+    alert("Your current progress will be lost");
     setData(["", "", "", "", "", "", "", "", ""]);
     setCount(0);
     setWinPattern(null); 
